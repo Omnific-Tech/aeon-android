@@ -1,0 +1,21 @@
+{
+  "herald_url": "https://herald.omnific.dev",
+  "application": "aeon",
+  "origin": "https://app.aeon.omnific.dev",
+  "start_url": "https://app.aeon.omnific.dev/",
+  "web_subscription_bridge": true,
+  "channels": [
+    {
+      "id": "alerts",
+      "name": "Alerts",
+      "description": "Time-critical notifications",
+      "importance": "high"
+    },
+    {
+      "id": "system",
+      "name": "System",
+      "description": "Service and account messages",
+      "importance": "default"
+    }
+  ]
+}

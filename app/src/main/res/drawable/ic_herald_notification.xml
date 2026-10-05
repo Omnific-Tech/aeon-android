@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Overrides core's bell with the Aeon pulse. Status bar icons use alpha only. -->
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="24dp"
+    android:height="24dp"
+    android:viewportWidth="512"
+    android:viewportHeight="512">
+    <group
+        android:translateX="2"
+        android:translateY="-16">
+        <path
+            android:pathData="M56,256h74l34,-96 46,224 48,-186 40,118 26,-60h132"
+            android:strokeColor="#FFFFFFFF"
+            android:strokeWidth="36"
+            android:strokeLineCap="round"
+            android:strokeLineJoin="round" />
+    </group>
+</vector>
