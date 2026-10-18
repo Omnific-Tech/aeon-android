@@ -39,6 +39,14 @@ Source tag and vendored library provenance identify release source. Checksums
 verify downloaded bytes; independently building verifies the source pipeline.
 A locally signed debug APK cannot replace an installation signed by release key.
 
+Version 0.2.1 (1803) pins Herald core 0.1.1 with the 500-subscription bridge
+capacity needed for Aeon's 343 combined earthquake/haze/system subscriptions.
+The vendored ZIP, SHA256SUMS and PROVENANCE.txt identify the exact reusable core
+source. App ID and the configured existing signing certificate are unchanged.
+An updated APK is required; older installed bridges may reject combined watches.
+Keep haze publishing disabled until the topic catalog and updated clients are
+ready. Existing whole-channel subscribers retain their original broad semantics.
+
 Dependency terms and embedded copyright notices are retained in the APK.
 Run `./gradlew :app:releaseNotices` to verify them and export the matching
 notice ZIP. CI retains this ZIP and publishes it alongside signed releases.
