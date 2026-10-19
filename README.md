@@ -14,7 +14,9 @@ The Android app opens Aeon's PWA in a **Trusted Web Activity** and delivers noti
 
 This repository contains the **Android distribution**: app identity, configuration, icons, and release pipeline. Aeon's web application and backend are maintained separately.
 
-![Aeon air quality dashboard with PM2.5 monitoring stations and an official BMKG haze briefing](docs/images/aeon-air-quality.png)
+| Earthquake watch | Air quality and haze |
+| --- | --- |
+| ![Aeon earthquake dashboard with epicenter map and latest watched earthquake](docs/images/aeon-earthquakes.png) | ![Aeon air quality dashboard with PM2.5 monitoring stations and an official BMKG haze briefing](docs/images/aeon-air-quality.png) |
 
 ## Install
 
